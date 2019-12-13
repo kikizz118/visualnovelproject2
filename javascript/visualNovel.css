@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Tomorrow', sans-serif;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#f4c4e4;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #006888;
+}
+
+/* Responsive Screen */
+@media only screen and (max-width: 800px) {
+
+    .title {
+        font-size: 2em;
+
+    }
+
+    .test-area {
+        width: 80vw;
+    }
+}
+
+/* BACKGROUND*/
+
+.container {
+    height: 100vh;
+    background-image:url("images/backgroundpic.gif");
+    background-size: cover;
+    /* background-position-y: 70%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+
+}
+
+.title {
+    margin-top: 12vh;
+    font-size: 3em;
+}
+
+/* JAVASCRIPT TEST AREA */
+
+.test-area {
+    width: 70vw;
+    height: 60vh;
+    box-sizing: border-box;
+    padding: 2em;
+    background-color: rgb(255, 255, 255, 0.8);
+    margin: auto;
+    text-align: center;
+    color: black;
+    overflow: auto;
+}
+
+
+/* VISUAL NOVEL */
+
+.buttonStyle {
+    background-color: #f4c4e4;
+    width: 200px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin:10px;
+
+
+
+}
+
+.invisible {
+    display: none;
+}
+
+
+.story-window img{
+   height:200px;
+}
+
+.story1-bg{
+  background-image:url("images/backgroundpic.gif");
+}
+
+.story2-bg{
+  background-image:url("images/heart2.gif");
+}
+
+.story3-bg{
+  background-image:url("images/heart2.gif");
+}
+
+
+
+.btncontainer{
+  display:flex;
+  justify-content: center;
+}
